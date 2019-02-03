@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Source Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./SourceSansPro-Regular.otf');
+}
+
+h1,h2,h3 {
+  font-family: 'Source Sans'
+}
+
 .App {
   text-align: center;
 }
@@ -20,6 +31,35 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.topnav {
+  background-image: url("./clair_background.png");
+  background-position: center; 
+  background-size:cover;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.title{
+  color: white;
+  font-size: 50px;
+}
+
+.left-title{
+  padding-left: 300px;
+}
+
+.right-title{
+  padding-right: 300px;
 }
 
 @keyframes App-logo-spin {

@@ -106,3 +106,5 @@ chrome-user-data
 gcp/*
 firebase/*
 
+./qhacks_fe/src/firebase.js
+
